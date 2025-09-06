@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "AGHelvetica";
+  src: url("./assets/fonts/AGHelvetica.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("./assets/fonts/Georgia.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MaryToddW00-Black";
+  src: url("./assets/fonts/MaryToddW00-Black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "MaryToddW00-Black", "Georgia", "AGHelvetica", sans-serif; /* Priority order: custom fonts first, then fallback */
+}
+
+.font-helvetica {
+  font-family: "AGHelvetica";
+}
+.font-georgia {
+  font-family: "Georgia";
+}
+.font-marytodd {
+  font-family: "MaryToddW00-Black";
+}
